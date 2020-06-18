@@ -1,0 +1,15 @@
+div
+{
+    margin: 100px;
+    
+}
+div p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2em;
+    color: teal;
+}
+h1{
+    color: sienna;
+    font-weight: 700;
+    text-decoration: seagreen;
+}

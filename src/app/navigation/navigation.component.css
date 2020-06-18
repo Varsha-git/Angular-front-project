@@ -1,0 +1,51 @@
+hr{
+    width: 100%;
+    border: black;
+}
+
+#msg
+{
+    margin-top: 100px;
+    margin-left: 50px;
+    position: relative;
+}
+.main
+{
+
+   height: 100vh;
+}
+
+  
+.message
+{
+    text-align: center;
+    font-size: 2em;
+    font-family:cursive;
+    color: black;
+    font-weight: 700;
+    
+    
+}
+
+.video-background
+{
+
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    min-width: 100%;
+    min-height: 100%;
+
+}
+
+.weather-data
+{
+    position: relative;
+}
+
+.weather-class
+{
+    display: relative;
+    font-size: 1.2em;
+}

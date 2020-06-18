@@ -1,0 +1,17 @@
+div{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    font-weight: 700;
+    height: 300px;
+    background-color: brown;
+    color:black;
+
+}
+
+.whybook
+{
+    list-style: none;
+    display: flex;
+    
+}
