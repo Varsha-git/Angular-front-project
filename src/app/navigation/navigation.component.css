@@ -1,35 +1,43 @@
-hr{
-    width: 100%;
-    border: black;
-}
-
-#msg
+.msg
 {
     margin-top: 100px;
     margin-left: 50px;
     position: relative;
+    
 }
 .main
 {
-
    height: 100vh;
 }
+div .message1
+{
+    color: black;
+    text-align: center;
+    position: relative;
+    font-size: 2em;
+    margin: 100px;
+    
+}
 
-  
+.message2
+{
+    color: black;
+    text-align: center;
+    position: relative;
+    font-size: 2em;
+    margin: -50px;
+}
+
 .message
 {
     text-align: center;
-    font-size: 2em;
-    font-family:cursive;
-    color: black;
-    font-weight: 700;
-    
+    font-size: 1.5em;
+    color: snow ;
+    font-weight: 500;
     
 }
-
 .video-background
 {
-
     position: absolute;
     top:0;
     left:0;
@@ -41,11 +49,75 @@ hr{
 
 .weather-data
 {
+    margin: 20px;
     position: relative;
 }
 
 .weather-class
 {
-    display: relative;
+    position: relative;
     font-size: 1.2em;
+    font-weight: 800;
+    background: rgba(255, 250, 250, 0.450);
+    margin-top: 90px;
+    width: 20%;
+    height: 20%;
+    border-radius: 25px;
+}
+
+.whychoose
+{
+    height: 100vh;
+    background-color:black;
+    position: relative;
+    margin-top: -56px;
+
+}
+.content1
+{
+    font-size: 1.1em;
+    text-align: center;
+    padding-top: 20px;
+}
+.content2
+{
+    font-size: 2.5em;
+    color: goldenrod;
+    text-align: center;
+
+}
+.kings
+{
+    font-size: 3.3em;
+    color: goldenrod;
+     text-align: center;
+     font-weight: 1000;
+     padding-top: 20px;
+}
+.content3
+{
+    font-size: 1.8em;
+    color: snow;
+    text-align:center;
+    padding: 5px;
+}
+.services
+{
+    height: 100vh;
+    background-color:black;
+    position: relative;
+    margin-top: -40px;
+}
+
+h1{
+    font-family: fantasy;  
+    color: snow; 
+    text-align: center;
+}
+p{
+    font-size: 1em;
+    color: white ;
+    margin-left: 0px;
+    font-size: 1em;
+
 }

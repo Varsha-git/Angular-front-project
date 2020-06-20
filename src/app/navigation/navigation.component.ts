@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import AOS from 'aos';
 @Component({
   selector: 'app-navigation',
   templateUrl: './navigation.component.html',
@@ -10,6 +11,7 @@ export class NavigationComponent implements OnInit {
   constructor() { }
   ngOnInit() {
 
+      AOS.init();
     this.WeatherData = {
       main: {},
       isDay: true

@@ -14,15 +14,12 @@ import { Routes, RouterModule } from '@angular/router';
 import { ReservationsComponent } from './reservations/reservations.component';
 import { ExploreComponent } from './explore/explore.component';
 
-
-
 const appRoutes: Routes = [
   { path: '', component: NavigationComponent },
   { path: 'contactus', component: ContactusComponent },
   { path: 'reservations', component: ReservationsComponent },
   { path: 'explore', component: ExploreComponent }
 ];
-
 
 @NgModule({
   declarations: [

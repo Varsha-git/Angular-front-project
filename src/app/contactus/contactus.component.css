@@ -1,15 +1,25 @@
 div
 {
-    margin: 100px;
+    
+    background-color: black;
+    width:100%;
+    margin-top: 80px;
+    height: 100%;
+
+   
     
 }
 div p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.2em;
-    color: teal;
+    font-size: 1.5em;
+    color:goldenrod;
+    text-align: center;
+    margin-top: 50px;
 }
 h1{
-    color: sienna;
+    color:goldenrod;
     font-weight: 700;
-    text-decoration: seagreen;
+    font-size: 1.5em;
+    text-align: center;
+    
 }

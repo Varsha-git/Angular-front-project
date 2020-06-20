@@ -1,7 +1,72 @@
-#calender
+.maindiv
 {
-    
-    margin: 150px;
-    background-color: rgba(224, 170, 33, 0.671);
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
+}
 
+.box
+{
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	padding-left: 80px;
+}
+.div-left
+{
+	position: relative;
+	width: 50%;
+	padding-top: 150px;	
+}
+
+.img {
+	display: block;
+	width: 100%;
+	height: auto;	
+ }
+
+.div-right
+{	
+	position: relative;
+	width: 50%;
+	padding-top: 150px;	
+}
+
+.color1
+{
+	background: black;
+}
+.color2
+{
+	background: #fff;
+}
+
+.overlay
+{
+	position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #f7fdff79;
+  overflow: hidden;
+  width: 500px;
+  height: 0;
+  transition: .5s ease;
+  border-radius: 30px;
+}
+
+.div-left:hover .overlay {
+	bottom: 74px;
+	height: 400px;
+  }
+
+.div-right:hover .overlay {
+	bottom: 74px;
+	height: 400px;
+  }
+.text{
+	font-size: 1.3em;
+	text-align: center;
+	padding:10px;
+	font-weight: bolder;
 }

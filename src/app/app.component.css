@@ -1,33 +1,51 @@
-#nav-bar
+#nav-bar1
 {   
     position: fixed;
     display: flex;
     top: 0;   
     z-index: 1;
     width: 100%;
-    height: 60px;
-    background-color:rgba(10, 181, 233, 0.500);   
-    
+    height: 70px;
+    padding-bottom: 20px;
+    background-color:rgba(7, 7, 7);     
 }
 
 .nav-hover
 {
-    color:white;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight: 400;
+    color:#fff;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 1.3em;
+    display: inline-block;
     text-decoration: none;
-    text-transform:capitalize ;
-    border-radius: 50px;
-    padding: 20px;
-   
+    border-radius: 0;
+    padding: 20px;  
 }
+
 .nav-list
 {
-   
     display: flex;
     justify-content: center;
     list-style: none;
-    width: 100%;
-    
+    width: 100%;    
 }
+
+.cool-link::after
+{
+content: '';
+display: block;
+width: 0;
+height: 4px;
+background:white;
+transition: width .3s;
+}
+
+.cool-link:hover::after{
+ width: 100%;
+ transition: width .3s;   
+}
+a img{
+    padding-bottom: 20px;
+   
+}
+
+

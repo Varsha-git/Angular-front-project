@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import * as AOS from 'aos';
+import AOS from 'aos';
 @Component({
   selector: 'app-explore',
   templateUrl: './explore.component.html',
@@ -12,7 +12,7 @@ export class ExploreComponent implements OnInit {
   ngOnInit() {
     console.log("enter on init");
     console.log(AOS);
-    AOS.init({ duration: 1200 });
+    AOS.init();
   }
 
 }
