@@ -22,7 +22,9 @@
 .img {
 	display: block;
 	width: 100%;
-	height: auto;	
+	height: auto;
+		
+
  }
 
 .div-right
@@ -30,6 +32,8 @@
 	position: relative;
 	width: 50%;
 	padding-top: 150px;	
+
+	
 }
 
 .color1

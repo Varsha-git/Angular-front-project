@@ -1,0 +1,19 @@
+<div class="form">
+  <div >
+    <input placeholder= "Enter name" type="text" [(ngModel)]="newReviewname" />
+    <input placeholder= "Enter Rating (5)"  type="email" [(ngModel)]="newReviewrating" />
+    <input placeholder= "Enter email "type="text" [(ngModel)]="newReviewemail" /><br> <br>
+    <textarea placeholder="Your Review" type="text" rows="15" cols="100" border="1px solid" [(ngModel)]="newReviewcomment">
+    </textarea>
+  </div>
+  <button (click)="addReview(newReview)">Add</button>
+</div>
+<label class="heading">REVIEWS </label>
+<ul class="review">
+  <li *ngFor="let review of reviews">
+     <p>{{ review.name }}</p>
+     <p>{{review.email}}</p>
+     <p>{{ review.rating }}</p> 
+     <p>{{ review.comment }}</p>
+  </li>
+</ul>
