@@ -13,7 +13,7 @@ HTML5,CSS3, Typescript, Angular 9, Open Weather API.
 
 **Hotel Room Detail **
 
-![alt text](https://github.com/Varsha-git/Angular-front-project/blob/master/src/assets/view2.png)
+![alt text](https://github.com/Varsha-git/Angular-front-project/blob/master/src/assets/view3.png)
 
  
 
