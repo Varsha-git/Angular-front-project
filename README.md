@@ -1,3 +1,22 @@
+## **About**
+The project aimed at designing an Web Application for Kings Cloud Hotel, Manali which represent the entire showcase of hotel profile, with rooms, menus and all little detail
+ require for any hotel to showcase to their customer. In addition they have been provided with regular Climate of manali, near by places and their description with awesome 
+UI and UX used to ease the viewcase for any customer with multiple effection and vedios to represent entire scenario of their stay. 
+
+## **Technologies**
+HTML5,CSS3, Typescript, Angular 9, Open Weather API.
+
+## ** Some screenshot of project**
+** Hover effect**
+
+![alt text](https://github.com/Varsha-git/Angular-front-project/blob/master/src/assets/view1.png)
+
+**Hotel Room Detail **
+
+![alt text](https://github.com/Varsha-git/Angular-front-project/blob/master/src/assets/view2.png)
+
+ 
+
 # Hotel
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7.
